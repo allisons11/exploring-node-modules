@@ -1,0 +1,11 @@
+{
+  "name": "exploring-node-modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Allison Pratt (allisons11)",
+  "license": "ISC"
+}
