@@ -1,8 +1,8 @@
 ## Exploring Module Patterns in Node
 
-In this exercise, you'll be rebuilding the core functionality of the CommonJS `require` function.
+To understand the core functionality of module patterns, this excercise serves as a guide to rebuilding a simplied version of the CommonJS `require` function.
 
-We have an application that accepts a number from the client, halves that number, and then returns the result after the same number of seconds. It uses two helper functions to accomplish this: `halve`, and `delayResponse`. These helper functions are stored as modules in two separate files: 'halve' and 'delayResponse', respectively.
+You'll be working with a basic Node.js server that accepts a number from the client, halves that number, and then returns the result after the same number of seconds. For example, if the client sends the number 8, the application will wait 4 seconds before responding with the number 4. Our modules will be the two helper functions that are used to accomplish this: `halve`, and `delayResponse`. These modules are stored in two separate files: 'halve' and 'delayResponse', respectively.
 
 We'll need to load these modules into our 'server.js' file in order to use them - but your challenge will be to do so without using `require` or `import`. In other words, you'll need to access the text in 'halve.js' and 'delayResponse.js' and run it as JavaScript code. The documentation on Node's [VM module](https://nodejs.org/api/vm.html#vm_vm_executing_javascript) will be of use to you here.
 
